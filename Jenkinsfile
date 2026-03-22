@@ -13,11 +13,12 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
+
+        /*stage('Checkout') {
             steps {
                 git branch: 'main', url: 'https://github.com/sandra-sanj/otp2_shopping_cart_with_localization.git'
             }
-        }
+        }*/
 
         stage('Build') {
             steps {
